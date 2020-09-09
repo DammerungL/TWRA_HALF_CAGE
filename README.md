@@ -1,6 +1,8 @@
 # TWRA_HALF_CAGE
 topological method for identification of hydrate cages
 
+in huan0-thread2.pl, the maximum number of threads is set to 10. you can modify it to your systems and hardware
+
 input: panding.gro  methane550 water_tip4p3487 example
 
 step0: cd cage1.0
