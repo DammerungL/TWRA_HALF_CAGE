@@ -1,6 +1,6 @@
 #! /usr/bin/perl
-print "hello  ��Ԫƴ�� ��\n";
-
+print "hello  ÈýÔªÆ´»· £¡\n";
+#If you use the TWRA_HALF_CAGE program, please cite the following refences: Unraveling nucleation pathway in methane clathrate formation
 sub findsangou {
 	
 	my $zhongxin = $_[0] ;
