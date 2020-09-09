@@ -11,7 +11,7 @@ step2: perl main.pl
 
 output:
 1. AllofThem.txt all nucleus
-2. TheLagrestOne.txt the largest nucleus
+2. TheLagrestOne.txt the largest nucleus (nucleus_size | water_index)
 3. ch2chuli.txt all rings (4-ring, 5-ring, 6-ring and 7-ring)
 4. 3pinglei.txt the number of different TWRAs
 5. 
