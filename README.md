@@ -2,6 +2,7 @@
 topological method for identification of hydrate cages
 
 input: panding.gro  methane550 water_tip4p3487 example
+
 step1: g++ cj.cpp -o cj
 
 step2: perl main.pl
