@@ -1,11 +1,11 @@
 #! /usr/bin/perl
-print "hello  成环 ！\n";
+print "hello  鎴愮幆 锛乗n";
 
 sub zhaohuan {
 	
 	my $qishi1 = $_[0] ; #zhongxu
 	my $panding = $_[1] ; #1
-	my $xuhanc = $_[2] ; #个数
+	my $xuhanc = $_[2] ; #涓暟
 	my $px = 1 ;
 #	print FP " $qishi1  $panding  my $xuhanc " ;
 	
@@ -33,11 +33,11 @@ sub zhaohuan {
 			
 		}
 		
-		#######7元环
+		#######7鍏冪幆
 		
 		if ( ( $panding == 8 ) && ( $lin_0 == 1 ) ) {
 			
-			#输出7元环
+			#杈撳嚭7鍏冪幆
 			
 			print FP "7  " ;
 			
@@ -57,7 +57,7 @@ sub zhaohuan {
 		
 		if ( ( $panding == 7 ) && ( $lin_0 == 1 ) ) {
 			
-			#输出6元环
+			#杈撳嚭6鍏冪幆
 			
 			print FP "6  " ;
 			
@@ -75,7 +75,7 @@ sub zhaohuan {
 		
 		if ( ( $panding == 6 ) && ( $lin_0 == 1 ) ) {
 			
-			#输出5元环
+			#杈撳嚭5鍏冪幆
 			print FP "5  " ;
 			
 			for ( $hxs5 = 1 ; $hxs5 <= 5 ; $hxs5 ++ ) {
@@ -92,7 +92,7 @@ sub zhaohuan {
 		
 		if ( ( $panding == 5 ) && ( $lin_0 == 1 ) ) {
 			
-			#输出4元环
+			#杈撳嚭4鍏冪幆
 			print FP "4  " ;
 			
 			for ( $hxs4 = 1 ; $hxs4 <= 4 ; $hxs4 ++ ) {
@@ -109,7 +109,7 @@ sub zhaohuan {
 		
 		if ( ( $panding == 4 ) && ( $lin_0 == 1 ) ) {
 			
-			#输出3元环
+			#杈撳嚭3鍏冪幆
 			print FP "3  " ;
 			
 			for ( $hxs3 = 1 ; $hxs3 <= 3 ; $hxs3 ++ ) {
@@ -149,7 +149,7 @@ sub zhaohuan {
 	
 }
 
-open (FH,"<cj1.txt");   #计算甲烷水壳层时改为cj2.txt; 否则cj1.txt.
+open (FH,"<cj1.txt");   #璁＄畻鐢茬兎姘村３灞傛椂鏀逛负cj2.txt; 鍚﹀垯cj1.txt.
 open FP,'+> ch1.txt';
 
 while (<FH>){
@@ -377,7 +377,7 @@ open CLP,'+> ch2chuli.txt';
  use threads::shared;                         ##
                                               ##
 my $max_thread_i = 0 ;                        ##
-my $max_thread = 10 ;                          ##
+my $max_thread = 10 ;                          #########################################
 #my @hhxx: shared ;                            ##
 #my @hhxu: shared ;                            ##
 #my @xxxxxx : shared ;                         ##
