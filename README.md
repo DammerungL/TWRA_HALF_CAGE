@@ -7,7 +7,7 @@ in main.pl, If activated in the main program, it will calculate the regular 512,
 
 in main.pl, If activated in the main program, it will calculate the asphericity of nucleus.
 
-input: panding.gro  methane550 water_tip4p3487 example
+input: panding.gro  methane550 water_tip4p3487 example. you can calculate any different system, but follow the panding.gro's format for declaing methane_C first and then TIP4P_water.
 
 step0: cd cage1.0
 
