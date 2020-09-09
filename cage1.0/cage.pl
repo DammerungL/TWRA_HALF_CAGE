@@ -1,5 +1,5 @@
 print "hello 512&51262 cages\n";
-
+#If you use the TWRA_HALF_CAGE program, please cite the following refences: Unraveling nucleation pathway in methane clathrate formation
 sub GONGM {
 	my $mian_one = $_[0];
 	my $mian_two = $_[1];
