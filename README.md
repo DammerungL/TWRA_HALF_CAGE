@@ -1,7 +1,7 @@
 # TWRA_HALF_CAGE
 topological method for identification of hydrate cages
 
-in huan0-thread2.pl, the maximum number of threads is set to 10. you can modify it to your systems and hardware
+in huan0-thread2.pl, the maximum number of threads is set to 10. you can modify it according to your systems and hardware
 
 in main.pl, If activated in the main program, it will calculate the regular 512, 51262 cages.
 
