@@ -24,3 +24,5 @@ output:
 
 If you use the TWRA_HALF_CAGE program, please cite the following refences:
 Unraveling nucleation pathway in methane clathrate formation
+
+https://www.pnas.org/content/early/2020/09/16/2011755117
