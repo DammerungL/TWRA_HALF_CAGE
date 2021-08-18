@@ -7,5 +7,5 @@ system ("perl tongji3.pl") ;
 system ("perl suiplei.pl") ;
 system ("perl half-cages.pl") ;
 system ("perl half_liantong.pl") ;
-#system ("perl cage.pl") ; If activated in the main program, it will calculate the regular 512, 51262 cages
-#system ("./asphericity"); If activated in the main program, it will calculate the asphericity of nucleus
+#system ("perl cage.pl") ; #If activated in the main program, it will calculate the regular 512, 51262 cages
+#system ("./asphericity"); #If activated in the main program, it will calculate the asphericity of nucleus
